@@ -1,0 +1,193 @@
+.timur_style{font-family: serif; color: black; background: dodgerblue;
+    width: 100%;
+    height: auto; text-align: center; margin-left: auto; margin-right: auto}
+.table_style{border:3px solid black; text-align: right; font-family: 'Montserrat', sans-serif;}
+.raw_style{border:3px solid black; width:200px; height: 200px;}
+.triangle{ width: 0; height: 0; border-bottom: 50px solid purple; border-right: 100px solid transparent;}
+.butt{ width: 36px; height: 18px; text-align-all: center; font-family: "Century Gothic"; background: dodgerblue;}
+.disable_y{display: none}
+.main-offer__form {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    padding-top: 10vh;
+}
+
+.main-offer__pic {
+    width: 100%;
+}
+
+.main-offer__title {
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 13px;
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-offer__text {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-offer__input {
+    font-size: 13px;
+    /* font-family: serif; */
+    /*transition: all 0.4s ease;*/
+    border-bottom: 1px solid #ACACAC;
+    padding-bottom: 5%;
+    margin-bottom: 4%;
+    position: relative;
+    width: 195px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-offer__input:last-child {
+    margin-bottom: 15%;
+}
+
+.main-offer__input::placeholder {
+    transition: all 0.4s ease;
+}
+
+.main-offer__input:hover::placeholder {
+
+}
+
+.main-offer__input:focus::placeholder {
+    color: #000;
+}
+
+.main-offer__input:hover {
+    border-bottom-color: #000;
+}
+
+.main-offer__input:focus {
+    border-bottom-color: #000;
+}
+
+.main-offer__message {
+    color: red;
+    font-size: 14px;
+    display: block;
+    height: 15px;
+    margin-bottom: 30px;
+}
+
+.main-offer_btn {
+    width: 150px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 900;
+    background-color: rgba(6, 95, 196, 0.83);
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 7%;
+    margin: 0 auto;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.main-offer__btn:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15)
+}
+
+.main-offer__btn:active {
+    background-color: dodgerblue;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3)
+}
+
+.main-offer__subtext {
+    color: #ADADAD;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#table {
+    padding: 20px;
+    padding-top: 110px;
+    width: 100%;
+    float: right;
+}
+
+#table tbody tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 15px;
+}
+
+#table tbody tr td {
+    text-align: center;
+}
+.table-wrap {
+    font-family: "Century Gothic", sans-serif;
+    float: right;
+}
+.table-section {
+    padding: 110px 0;
+}
+.table {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    grid-gap: 2vw;
+}
+.table__card {
+    border-radius: 5%;
+    box-shadow: 0 0 100px 23px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+.table__header {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.table__header::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.table__number {
+    height: 15px;
+}
+.Yes {
+    color: green;
+}
+.No {
+    color: red;
+}
+
+#outputTable {
+    float: right;
+    margin-top: 72px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    border: 1px solid #000720;
+    border-collapse: collapse;
+    width: 90%;
+
+}
+#outputTable td {
+    text-align: center;
+}
+
+#outputTable th {
+    background-color: dodgerblue;
+    color: black;
+}
+
+#outputTable * {
+    padding: 25px;
+}
